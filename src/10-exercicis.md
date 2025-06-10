@@ -1,59 +1,56 @@
-# Exercicis - Nivell bàsic
+# Exercicis
 
-1. Escriu un programa que done els “bon dia”.
-2. Escriu un programa que calcule i mostre l'àrea d'un quadrat de costat igual a 5.
-3. Escriu un programa que calcule l'àrea d'un quadrat el costat del qual s'introdueix per teclat.
-4. Escriu un programa que llija dos números, calcule i mostre el valor de les seues suma, resta,
-producte i divisió.
-5. Escriu un programa que pren com a dada d'entrada un número que correspon a la longitud
-d'un radi i ens escriu la longitud de la circumferència, l'àrea del cercle i el volum de l'esfera que
-corresponen amb aquest ràdio.
-6. Escriu un programa que donat el preu d'un article i el preu de venda real ens mostre el
-percentatge de descompte realitzat.
-7. Escriu un programa que llija un valor corresponent a una distància en milles marines i escriga la
-distància en metres. Sabent que una milla marina equival a 1.852 metres.
-8. Escriu un programa que demana l'edat per teclat i ens mostra el missatge de “Eres major
-d'edat” sol si ho som.
-9. Escriu un programa que demana l'edat per teclat i ens mostra el missatge de “eres major
-d'edat” o el missatge de “eres menor d'edat”.
+## Exercicis - Nivell bàsic
 
-# Exercicis - Nivell mitjà
+### Exercici 1
 
-10. Escriu un programa que llig dos números, calcula i mostra el valor de la seua suma, resta, producte i divisió. (Ten en compte la divisió per zero).
-11. Escriu un programa que llig 2 números i mostra el major.
-12. Escriu un programa que llig un número i em diu si és positiu o negatiu, considerarem el zero com a positiu.
-13. Escriu un programa que llig dos números i els visualitza en ordre ascendent.
-14. Escriu un programa que llig dos números i ens diu quin és el major o si són iguals.
-15. Escriu un programa que llija tres números diferents i ens diga quin és el major.
+**a)** Escriu un programa que imprimisca l'area d'un quadrat de costat 5.  
+**b)** Modifica'l perquè el costat del quadrat s’introduïsca per teclat i es mostre l'area corresponent.  
+**c)** Afig-hi el càlcul i la mostra del perímetre del mateix quadrat.  
 
-# Exercicis - Nivell avançat
+### Exercici 2
 
-16. Escriu un programa que llija una qualificació numèrica entre 0 i 10 i la transforma en qualificació alfabètica, escrivint el resultat.
+**a)** Escriu un programa que llig dos nombres i només mostre la seua suma.  
+**b)** Ampli­a'l perquè també mostre la resta dels dos nombres.  
+**c)** Afig-hi el producte i la divisió, mostrant cada resultat amb un missatge clar.  
+**d)** Afig que, en cas de dividir per zero, no farà l'operació i mostrarà un missatge indicant de l'error.  
 
-- de 0 a 2 Molt Deficient.
-- de 3 a 4 Insuficient.
-- de 5 a 6 Bé.
-- de 7 a 8 Notable
-- de 9 a 10 Excel·lent
+### Exercici 3
 
+**a)** Escriu un programa que demane l’edat per teclat i, si l’usuari és major d’edat (≥18), mostre "Ets major d’edat".  
+**b)** Modifica’l perquè, en cas contrari, mostre "Ets menor d’edat".  
+**c)** Afig-hi una comprovació addicional: si l’edat introduïda és negativa, que mostre "Error: edat invàlida".  
 
-17.  Escriu un programa que rep com a dades d'entrada una hora expressada en hores, minuts i segons que ens calcula i escriu l'hora, minuts i segons que seran, transcorregut un segon.
-18.  Escriu un programa que calcula el salari net setmanal d'un treballador en funció del nombre d'hores treballades i la taxa d'impostos d'acord amb les següents hipòtesis:
+## Exercicis - Nivell mitjà
 
-- Les primeres 35 hores es paguen a tarifa normal.
-- Les hores que passen de 35 es paguen a 1,5 vegades la tarifa normal.
-- Les taxes d'impostos són:
-  - Els primers 500 euros són lliures d'impostos.
-  - Els següents 400 tenen un 25% d'impostos.
-  - Els restants un 45% d'impostos.
+### Exercici 4
 
-Escriure nom, salari brut, taxes i salari net.
+**a)** Crea un programa que, donat un número introduït per teclat, imprimirà tots els números entre 0 i aquest.  
+**b)** Afig una comprovació prèvia que ens assegure que el número introduït és positiu.  
+**c)** Modifica el programa de forma que només imprimirà els números parells i no siguen ni 16 ni múltiples de 3.  
 
-# Exercicis d'ampliació
+### Exercici 5
 
-19. Una botiga ven banderes personalitzades de la màxima qualitat i ens ha demanat fer un configurador que calcule el preu segons alt i ample. El preu base d'una bandera és d’un cèntim d’euro el centímetre quadrat. Si la volem amb un escut brodat, el preu s'incrementa en 2,50 € independentment de l'escut. Les despeses d'enviament són 3,25€. L'IVA ja està inclòs a totes les tarifes.
+En el departament de secretaria t’han demanat un programa per convertir notes numèriques en valoracions alfabètiques.
 
-**Exemple**:
+**a)** El programa llig una nota (0–10) i escriu la corresponent valoració:
+
+- 0–2: Molt deficient
+- 3–4: Insuficient
+- 5–6: Bé
+- 7–8: Notable
+- 9–10: Excel·lent
+
+**b)** Si la nota està fora de l’interval 0–10, ha de mostrar “Error: nota invàlida”.  
+**c)** Afig una felicitació addicional: si la qualificació és exactament 10, també mostrarà “Felicitats! Tens matrícula d'honor!”.  
+
+## Exercicis - Nivell alt
+
+### Exercici 6
+
+Una botiga ven banderes personalitzades de la màxima qualitat i ens ha demanat fer un configurador que calcule el preu segons alt i ample. El preu base d'una bandera és d’un cèntim d’euro el centímetre quadrat. Si la volem amb un escut brodat, el preu s'incrementa en 2,50 € independentment de l'escut. Les despeses d'enviament són 3,25€. L'IVA ja està inclòs a totes les tarifes.
+
+*Exemple*:
 
 ```plaintext
 Introduïu l'alçada de la bandera en cm: 20
@@ -66,9 +63,11 @@ Despeses d'enviament: 3,25 €
 Total: 10,25 €  
 ```
 
-20. Una pastisseria ens ha demanat fer un programa que faça pressupostos de pastissos. El programa preguntarà primer de quin sabor vol l'usuari el pastís: poma, maduixa o xocolata. El pastís de poma val 18 euros i el de maduixa 16. En cas de seleccionar el pastís de xocolata, el programa ha de preguntar a més si la xocolata és negra o blanca; la primera opció val 14 euros i la segona 15. Finalment, es pregunta si s'hi afegeix nata i si es personalitza amb un nom; la nata suma 2,50 i l'escriptura del nom 2,75.
+### Exercici 7
 
-**Exemple**: 
+Una pastisseria ens ha demanat fer un programa que faça pressupostos de pastissos. El programa preguntarà primer de quin sabor vol l'usuari el pastís: poma, maduixa o xocolata. El pastís de poma val 18 euros i el de maduixa 16. En cas de seleccionar el pastís de xocolata, el programa ha de preguntar a més si la xocolata és negra o blanca; la primera opció val 14 euros i la segona 15. Finalment, es pregunta si s'hi afegeix nata i si es personalitza amb un nom; la nata suma 2,50 i l'escriptura del nom 2,75.
+
+*Exemple*:
 
 ```plaintext
 Trieu un sabor (poma, maduixa o xocolata): xocolata
@@ -80,9 +79,11 @@ Amb nata: 2,50 €
 Total: 16,50 €
 ```
 
-21. Implementa el joc pedra, paper y tisora. Primer, l’usuari 1 introdueix la seua jugada y després l’usuari 2.
+### Exercici 8
 
-**Exemple 1**:
+Implementa el joc pedra, paper y tisora. Primer, l’usuari 1 introdueix la seua jugada y després l’usuari 2.
+
+*Exemple 1*:
 
 ```plaintext
 Torn del jugador 1 (introdueix pedra, paper o tisora): paper
@@ -90,7 +91,7 @@ Torn del jugador 2 (introdueix pedra, paper o tisora): paper
 Empat
 ```
 
-**Exemple 2**:
+*Exemple 2*:
 
 ```plaintext
 Torn del jugador 1 (introdueix pedra, paper o tisora): paper
@@ -98,7 +99,7 @@ Torn del jugador 2 (introdueix pedra, paper o tisora): tisora
 Guanya el jugador 2
 ```
 
-**Exemple 3**:
+*Exemple 3*:
 
 ```plaintext
 Torn del jugador 1 (introdueix pedra, paper o tisora): pedra
