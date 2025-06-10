@@ -50,7 +50,7 @@ En el departament de secretaria t’han demanat un programa per convertir notes 
 
 **d)** Finalment, imprimeix nom, salari brut, total d’impostos i salari net, amb missatges clars.  
 
-## Exercicis - Nivell alt
+## Exercicis - Nivell avançat
 
 ### Exercici 6
 
