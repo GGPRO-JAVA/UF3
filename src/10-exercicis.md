@@ -25,12 +25,6 @@
 
 ### Exercici 4
 
-**a)** Crea un programa que, donat un número introduït per teclat, imprimirà tots els números entre 0 i aquest.  
-**b)** Afig una comprovació prèvia que ens assegure que el número introduït és positiu.  
-**c)** Modifica el programa de forma que només imprimirà els números parells i no siguen ni 16 ni múltiples de 3.  
-
-### Exercici 5
-
 En el departament de secretaria t’han demanat un programa per convertir notes numèriques en valoracions alfabètiques.
 
 **a)** El programa llig una nota (0–10) i escriu la corresponent valoració:
@@ -43,6 +37,18 @@ En el departament de secretaria t’han demanat un programa per convertir notes 
 
 **b)** Si la nota està fora de l’interval 0–10, ha de mostrar “Error: nota invàlida”.  
 **c)** Afig una felicitació addicional: si la qualificació és exactament 10, també mostrarà “Felicitats! Tens matrícula d'honor!”.  
+
+### Exercici 5
+
+**a)** Escriu un programa que llig les hores treballades i la tarifa per hora, i calcule el salari brut (sense hores extres).  
+**b)** Amplia-lo perquè les hores que passen de 35 es paguen a 1,5 × tarifa.  
+**c)** Afig-hi el càlcul d’impostos segons trams:  
+
+- Primeros 500 €: 0 %
+- Següents 400 €: 25 %
+- Resta: 45 %
+
+**d)** Finalment, imprimeix nom, salari brut, total d’impostos i salari net, amb missatges clars.  
 
 ## Exercicis - Nivell alt
 
@@ -105,4 +111,61 @@ Guanya el jugador 2
 Torn del jugador 1 (introdueix pedra, paper o tisora): pedra
 Torn del jugador 2 (introdueix pedra, paper o tisora): tisora
 Guanya el jugador 1
+```
+
+### Exercici 9
+
+Una empresa de missatgeria vol automatitzar el càlcul del preu d'enviaments de paquets segons el pes i la destinació. El programa demanarà primer el pes del paquet en kg.
+
+- Si el pes és inferior a 1 kg, el preu base és de 3 €.
+- Si el pes està entre 1 i 5 kg (inclosos), el preu base és de 5 €.
+- Si el pes supera els 5 kg, el preu base és de 10 €.
+
+Després, es pregunta si el destí és nacional o internacional:
+
+- En cas d'enviament internacional, s'aplica un suplement de 7,50 €.
+- Si l'enviament és nacional, no hi ha cap suplement.
+
+Finalment, es mostra el desglossament del preu total.
+
+*Exemple*:
+
+```plaintext
+Introdueix el pes del paquet (en kg): 2.5  
+És un enviament internacional? (s/n): s  
+Preu base per 2.5 kg: 5,00 €  
+Suplement per enviament internacional: 7,50 €  
+Total: 12,50 €  
+```
+
+### Exercici 10
+
+Una cafeteria et demana que programes un sistema per fer tiquets de comanda per esmorzars. Cada client pot triar una beguda (cafè, te o xocolata) i una pasta (croissant, ensaïmada o magdalena).
+
+Preus de les begudes:
+
+- Cafè: 1,20 €
+- Te: 1,00 €
+- Xocolata: 1,50 €
+
+Preus de les pastes:
+
+- Croissant: 1,10 €
+- Ensaïmada: 1,40 €
+- Magdalena: 0,90 €
+
+El programa també pregunta si es vol per emportar o per consumir al local.
+
+Si és per emportar, s'aplica un recàrrec de 0,25 € pel got i el recipient.
+
+*Exemple*:
+
+```plaintext
+Tria una beguda (cafè, te o xocolata): xocolata  
+Tria una pasta (croissant, ensaïmada o magdalena): ensaïmada  
+Vols per emportar? (s/n): s  
+Beguda (xocolata): 1,50 €  
+Pasta (ensaïmada): 1,40 €  
+Recàrrec per emportar: 0,25 €  
+Total: 3,15 €  
 ```
