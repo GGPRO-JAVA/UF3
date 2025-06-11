@@ -4,8 +4,8 @@
 
 ### Exercici 1
 
-**a)** Escriu un programa que imprimisca l'area d'un quadrat de costat 5.  
-**b)** Modifica'l perquè el costat del quadrat s’introduïsca per teclat i es mostre l'area corresponent.  
+**a)** Escriu un programa que imprimisca l'àrea d'un quadrat de costat 5.  
+**b)** Modifica'l perquè el costat del quadrat s'introduïsca per teclat i es mostre l'àrea corresponent.  
 **c)** Afig-hi el càlcul i la mostra del perímetre del mateix quadrat.  
 
 ### Exercici 2
@@ -17,15 +17,15 @@
 
 ### Exercici 3
 
-**a)** Escriu un programa que demane l’edat per teclat i, si l’usuari és major d’edat (≥18), mostre "Ets major d’edat".  
-**b)** Modifica’l perquè, en cas contrari, mostre "Ets menor d’edat".  
-**c)** Afig-hi una comprovació addicional: si l’edat introduïda és negativa, que mostre "Error: edat invàlida".  
+**a)** Escriu un programa que demane l'edat per teclat i, si l'usuari és major d'edat (≥18), mostre "Ets major d'edat".  
+**b)** Modifica'l perquè, en cas contrari, mostre "Ets menor d'edat".  
+**c)** Afig-hi una comprovació addicional: si l'edat introduïda és negativa, que mostre "Error: edat invàlida".  
 
 ## Exercicis - Nivell mitjà
 
 ### Exercici 4
 
-En el departament de secretaria t’han demanat un programa per convertir notes numèriques en valoracions alfabètiques.
+En el departament de secretaria t'han demanat un programa per convertir notes numèriques en valoracions alfabètiques.
 
 **a)** El programa llig una nota (0–10) i escriu la corresponent valoració:
 
@@ -35,26 +35,26 @@ En el departament de secretaria t’han demanat un programa per convertir notes 
 - 7–8: Notable
 - 9–10: Excel·lent
 
-**b)** Si la nota està fora de l’interval 0–10, ha de mostrar “Error: nota invàlida”.  
+**b)** Si la nota està fora de l'interval 0–10, ha de mostrar “Error: nota invàlida”.  
 **c)** Afig una felicitació addicional: si la qualificació és exactament 10, també mostrarà “Felicitats! Tens matrícula d'honor!”.  
 
 ### Exercici 5
 
 **a)** Escriu un programa que llig les hores treballades i la tarifa per hora, i calcule el salari brut (sense hores extres).  
 **b)** Amplia-lo perquè les hores que passen de 35 es paguen a 1,5 × tarifa.  
-**c)** Afig-hi el càlcul d’impostos segons trams:  
+**c)** Afig-hi el càlcul d'impostos segons trams:  
 
 - Primeros 500 €: 0 %
 - Següents 400 €: 25 %
 - Resta: 45 %
 
-**d)** Finalment, imprimeix nom, salari brut, total d’impostos i salari net, amb missatges clars.  
+**d)** Finalment, imprimeix nom, salari brut, total d'impostos i salari net, amb missatges clars.  
 
 ## Exercicis - Nivell avançat
 
 ### Exercici 6
 
-Una botiga ven banderes personalitzades de la màxima qualitat i ens ha demanat fer un configurador que calcule el preu segons alt i ample. El preu base d'una bandera és d’un cèntim d’euro el centímetre quadrat. Si la volem amb un escut brodat, el preu s'incrementa en 2,50 € independentment de l'escut. Les despeses d'enviament són 3,25€. L'IVA ja està inclòs a totes les tarifes.
+Una botiga ven banderes personalitzades de la màxima qualitat i ens ha demanat fer un configurador que calcule el preu segons alt i ample. El preu base d'una bandera és d'un cèntim d'euro el centímetre quadrat. Si la volem amb un escut brodat, el preu s'incrementa en 2,50 € independentment de l'escut. Les despeses d'enviament són 3,25€. L'IVA ja està inclòs a totes les tarifes.
 
 *Exemple*:
 
@@ -87,7 +87,7 @@ Total: 16,50 €
 
 ### Exercici 8
 
-Implementa el joc pedra, paper y tisora. Primer, l’usuari 1 introdueix la seua jugada y després l’usuari 2.
+Implementa el joc pedra, paper y tisora. Primer, l'usuari 1 introdueix la seua jugada y després l'usuari 2.
 
 *Exemple 1*:
 
