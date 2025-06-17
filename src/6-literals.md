@@ -100,7 +100,7 @@ La visualització del string anterior mitjançant println() produiria la següen
 ::: tabs
 == Java
 
-```
+```text
 Primera línia
 Segona línia del string
 
@@ -113,7 +113,7 @@ La manera d'incloure els caràcters 'cometes dobles' `"` i 'contrabarra' `\` és
 
 Si el String és massa llarg i ha de dividir-se en diverses línies en el fitxer font, pot utilitzar-se l'operador de concatenació de Strings `+` de la següent forma:
 
-```
+```text
 "Aquest String és massa llarg per a estar en una línia del"
 + "fitxer font i s'ha dividit en dues."
 ```
