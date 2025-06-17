@@ -35,8 +35,8 @@ En el departament de secretaria t'han demanat un programa per convertir notes nu
 - 7–8: Notable
 - 9–10: Excel·lent
 
-**b)** Si la nota està fora de l'interval 0–10, ha de mostrar “Error: nota invàlida”.  
-**c)** Afig una felicitació addicional: si la qualificació és exactament 10, també mostrarà “Felicitats! Tens matrícula d'honor!”.  
+**b)** Si la nota està fora de l'interval 0–10, ha de mostrar "Error: nota invàlida".  
+**c)** Afig una felicitació addicional: si la qualificació és exactament 10, també mostrarà "Felicitats! Tens matrícula d'honor!".  
 
 ### Exercici 5
 
